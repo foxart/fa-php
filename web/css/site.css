@@ -1,0 +1,161 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+#breadcrumbs {
+	margin-top: 12px;
+	padding: 6px;
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 14px;
+	/*color: darkslateblue;*/
+	background-color: antiquewhite;
+}
+
+#breadcrumbs a {
+	text-decoration: none;
+}
+
+#breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+#path {
+	font-family: monospace;
+	text-decoration: underline;
+}
+
+/*menu header*/
+#menu-header ul {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu-header ul li a {
+	float: left;
+	margin-right: 18px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	/*font-weight: bold;*/
+	color: darkred;
+	text-decoration: none;
+}
+
+#menu-header a:hover {
+	text-decoration: underline;
+}
+
+/*menu left*/
+#menu-left ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu-left li {
+	margin: 0;
+	padding: 0;
+}
+
+#menu-left ul li a {
+	/*font-family: monospace;*/
+	font-size: 16px;
+	line-height: 20px;
+	/*font-weight: bold;*/
+	color: darkblue;
+	text-decoration: none;
+}
+
+#menu-left ul li a:hover {
+	text-decoration: underline;
+}
+
+/*container*/
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+#container-content {
+	min-width: 1000px;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+}
+
+#container-header {
+	/*height: 50px;*/
+}
+
+#container-header-content {
+	position: relative;
+	padding: 10px;
+	border-bottom: dotted 1px #000;
+}
+
+#container-body {
+
+}
+
+#container-body-content {
+	padding: 10px;
+}
+
+#container-footer {
+	/*height: 50px;*/
+}
+
+#container-footer-content {
+	padding: 10px;
+	border-top: dotted 1px #000;
+}
+
+/*
+
+ */
+
+
+.content, .content-left, .content-right {
+	position: relative;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 12px;
+}
+
+.content-left {
+	padding-right: 12px;
+}
+
+.content-right {
+	padding-left: 12px;
+}

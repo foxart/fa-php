@@ -1,0 +1,59 @@
+/* COLOR */
+.cl-white {
+	color: #FFFFFF;
+}
+
+/* BACKGROUND COLOR */
+.bg-cl-white {
+	background-color: #FFFFFF;
+}
+
+/* COLOR */
+.cl-black {
+	color: #000000;
+}
+
+.cl-black-1 {
+	color: #2e2e2e;
+}
+
+.cl-black-2 {
+	color: #5c5c5c;
+}
+
+.cl-black-3 {
+	color: #8b8b8b;
+}
+
+.cl-black-4 {
+	color: #b9b9b9;
+}
+
+.cl-black-5 {
+	color: #e7e7e7;
+}
+
+/* BACKGROUND COLOR */
+.bg-cl-black {
+	background-color: #000000;
+}
+
+.bg-cl-black-1 {
+	background-color: #2e2e2e;
+}
+
+.bg-cl-black-2 {
+	background-color: #5c5c5c;
+}
+
+.bg-cl-black-3 {
+	background-color: #8b8b8b;
+}
+
+.bg-cl-black-4 {
+	background-color: #b9b9b9;
+}
+
+.bg-cl-black-5 {
+	background-color: #e7e7e7;
+}
